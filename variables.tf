@@ -33,3 +33,8 @@ variable "allocation_method" {
 variable "sku" {
   type = string
 }
+
+variable "zones" {
+  type = list
+  default = [0]
+}
