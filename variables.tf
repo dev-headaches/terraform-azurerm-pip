@@ -34,7 +34,7 @@ variable "sku" {
   type = string
 }
 
-variable "zones" {
-  type = list
-  default = [0]
+variable "availability_zone" {
+  type = string
+  default = "No-Zone"
 }
